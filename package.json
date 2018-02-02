@@ -1,0 +1,22 @@
+{
+  "name": "weatherapi",
+  "version": "0.0.5",
+  "description": "weather api end node",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "weather",
+    "api",
+    "etc"
+  ],
+  "author": "farhad agzamov",
+  "license": "ISC",
+  "dependencies": {
+    "got": "^8.0.3"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2"
+  }
+}
