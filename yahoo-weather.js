@@ -21,7 +21,7 @@ const getWeather = ( location ) => {
 		getter(locationUrl).then(function(response) {
 			// console.log(locationUrl);
 			var result = JSON.parse(response);
-			// console.log(result.query.results.channel);
+			console.dir(result,{ depth: null, colors: true });
 			resolve(result.query.results.channel);
 		});
 	});
